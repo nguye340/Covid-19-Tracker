@@ -3,9 +3,22 @@ React application for tracking covid-19 cases globally
 Ultilize Material UI, React hooks and components
 Deploy with Firebase
 
+Objectives:
+- Practice applying React framework, React hooks and component-based design
+- Familiarize with React Materialize, deploying react application on firebase
+
 Challenges: 
-- Manipulate data fetched from the API
+- Correctly fetch and manipulate data from the API
+- Duplication and complexity of codes
+- Organize components
 - Employ visual and interactive components for better user experience
+
+Actions:
+- Applied useState() to define data type for variables, useEffect() to fetch data from API and execute codes on set condition.
+- While fetching data, user input was passed to a parameter later incorporated in URL to request desired data from the API (desease.sh)
+- Deconstructured data for necessary values only and using ES6 syntax, which simplified the codes
+- Seperated each significant component into different javaScript and CSS files for easy navigation, focused tasks, loose dependency and targeted debugging
+- Using string interpolation in class name for detailed styling
 
 Products/React components:
 - 3 info-boxes automatically updates infected cases, recovered cases and deaths of chosen country (default worldwide statistic) everyday and total number of cases
