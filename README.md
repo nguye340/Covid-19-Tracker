@@ -1,9 +1,8 @@
 # Covid-19-Tracker
-[Project Link]([https://covid-19-tracker-0.web.app/])
+[Check out Project](https://covid-19-tracker-0.web.app/)
 React application for tracking covid-19 cases globally 
 Ultilize Material UI, React hooks and components
 Deploy with Firebase
-
 
 Objectives:
 - Practice applying React framework, React hooks and component-based design
