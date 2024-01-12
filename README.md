@@ -1,5 +1,5 @@
 # Covid-19-Tracker
-Check out the project [here]([https://covid-19-tracker-0.web.app/])
+[]([https://covid-19-tracker-0.web.app/])
 React application for tracking covid-19 cases globally 
 Ultilize Material UI, React hooks and components
 Deploy with Firebase
