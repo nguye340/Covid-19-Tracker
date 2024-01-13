@@ -1,0 +1,71 @@
+.infoBox {
+  flex: 1;
+  transition: box-shadow 0.3s;
+}
+
+.infoBox_title {
+  font-weight: 700 !important;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox_cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+.infoBox_total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
+
+.infoBox:hover,
+.infoBox:focus {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infoBox--selected {
+  border-top: 10px solid rgb(39, 252, 11);
+}
+
+.infoBox--red {
+  border-top: 10px solid red;
+}
+
+.infoBox--purple {
+  border-top: 10px solid rgb(106, 18, 223);
+}
+
+.infoBox_cases--green {
+  color: lightgreen !important;
+}
+
+.infoBox_cases--purple {
+  color: rgb(92, 2, 196) !important;
+}
+
+@media screen and (max-width: 900px) {
+  .infoBox {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .infoBox {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .infoBox:not(:last-child) {
+    margin-right: 0px;
+  }
+}

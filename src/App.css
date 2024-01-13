@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("./corona.jpg");
+  background-size: cover;
+  padding: 50px 30px 50px 30px;
+  align-items: stretch;
+}
+
+.app_dropdown {
+  background-color: white;
+  transition: box-shadow 0.3s;
+}
+
+.app_dropdown:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.app_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app_header > h1 {
+  color: #ffffff !important;
+  font-size: 2rem;
+}
+
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_left {
+  flex: 0.9;
+}
+
+.app_right {
+  display: flex;
+}
+.app_right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.app_graph {
+  flex-grow: 1;
+}
+
+.app_graph_title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+@media (max-width: 900px) and (min-width: 510px) {
+  .app {
+    flex-direction: column;
+  }
+  .app_right {
+    display: flex;
+    margin-top: 10px;
+  }
+  .app_right {
+    margin-top: 10px;
+  }
+  .MuiPaper-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .app_graph {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .app {
+    flex-direction: column;
+  }
+  .app_header {
+    flex-direction: column;
+  }
+  .app_header > h1 {
+    color: #fc3c3c;
+    font-size: 2rem;
+    padding-bottom: 15px;
+  }
+  .app_stats {
+    flex-direction: column;
+  }
+  .app_right {
+    margin-top: 10px;
+  }
+  .MuiPaper-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .app_graph {
+    flex-grow: 1;
+  }
+}

@@ -1,30 +1,70 @@
-# Covid-19-Tracker
-[Project Here!](https://covid-19-tracker-0.web.app/)
-React application for tracking covid-19 cases globally 
-Ultilize Material UI, React hooks and components
-Deploy with Firebase
+# Getting Started with Create React App
 
-Objectives:
-- Practice applying React framework, React hooks and component-based design
-- Familiarize with React Materialize, deploying react application on firebase
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Challenges: 
-- Correctly fetch and manipulate data from the API
-- Duplication and complexity of codes
-- Organize components
-- Employ visual and interactive components for better user experience
+## Available Scripts
 
-Actions:
-- Applied useState() to define data type for variables, useEffect() to fetch data from API and execute codes on set condition.
-- While fetching data, user input was passed to a parameter later incorporated in URL to request desired data from the API (desease.sh)
-- Deconstructured data for necessary values only and using ES6 syntax, which simplified the codes
-- Seperated each significant component into different javaScript and CSS files for easy navigation, focused tasks, loose dependency and targeted debugging
-- Using string interpolation in class name for detailed styling
+In the project directory, you can run:
 
-Products/React components:
-- 3 info-boxes automatically updates infected cases, recovered cases and deaths of chosen country (default worldwide statistic) everyday and total number of cases
-- A map visuallizes the number of case types (infected, recovered, deaths) globally or by country.
-  Case types can be selected by clickable info-boxes on top of it
-- A table for live cases recorded by countries
-- A graph to demonstrate worldwide changes in different case types, also interactive with pop-up of specific statistic on hover.
-  It is updated upon user choice of case types via info-boxes
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

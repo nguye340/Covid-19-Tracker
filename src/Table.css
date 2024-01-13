@@ -1,0 +1,34 @@
+.table {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  color: #6a5d5d;
+  scrollbar-color: #4285f4 #f5f5f5;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+/*Customize table scrollbar*/
+.scrollbar {
+  scrollbar-color: #4285f4 #f5f5f5;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 50px;
+  background-color: #4285f4;
+}
